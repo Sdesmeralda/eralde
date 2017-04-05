@@ -11,4 +11,12 @@ public class Fizz {
    
    return resultado;
     }
+     public String getFuzz (int n){
+        String resultado = String.valueOf(n);
+    if (n%5==0){
+    resultado= "Fuzz";
+    }
+   
+   return resultado;
+    }
 }

@@ -34,4 +34,9 @@ public class FizzTest {
         int result = fb.getFizz(3);
         assertEquals("Fizz", result);
     }
+      public void testNumeroDevuelvenum5() {
+        KataFizz fb = new KataFizz();
+        int result = fb.getFuzz(5);
+        assertEquals("Fuzz", result);
+    }
 }

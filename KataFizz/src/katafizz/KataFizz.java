@@ -12,5 +12,9 @@ public class KataFizz {
     int getFizz(int n) {
         return n;
     }
+
+    int getFuzz(int n) {
+        return n;
+    }
     
 }
