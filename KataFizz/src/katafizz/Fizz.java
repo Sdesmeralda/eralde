@@ -3,7 +3,12 @@ package katafizz;
 
 
 public class Fizz {
-    public int getFizz (int n){
-    return n;
+    public String getFizz (int n){
+        String resultado = String.valueOf(n);
+    if (n==3){
+    resultado= "Fizz";
+    }
+   
+   return resultado;
     }
 }
