@@ -23,5 +23,10 @@ public class FizzTest {
         int result = fb.getFizz(1);
         assertEquals(1, result);
     }
-    
+      @Test
+    public void testNumeroDevuelveDos() {
+        KataFizz fb = new KataFizz();
+        int result = fb.getFizz(2);
+        assertEquals(2, result);
+    }
 }
