@@ -19,24 +19,32 @@ public class FizzTest {
 
     @Test
     public void testNumeroDevuelveNumero() {
-        KataFizz fb = new KataFizz();
-        int result = fb.getFizz(1);
-        assertEquals(1, result);
+        Fizz fb = new Fizz();
+        String result = fb.getFizz(1);
+        assertEquals("1", result);
     }
       @Test
     public void testNumeroDevuelveDos() {
-        KataFizz fb = new KataFizz();
-        int result = fb.getFizz(2);
-        assertEquals(2, result);
+        Fizz fb = new Fizz();
+        String result = fb.getFizz(2);
+        assertEquals("2", result);
     }
+    @Test
      public void testNumeroDevuelveFIzz() {
-        KataFizz fb = new KataFizz();
-        int result = fb.getFizz(3);
+        Fizz fb = new Fizz();
+        String result = fb.getFizz(3);
         assertEquals("Fizz", result);
     }
+     @Test
       public void testNumeroDevuelvenum5() {
-        KataFizz fb = new KataFizz();
-        int result = fb.getFuzz(5);
-        assertEquals("Fuzz", result);
+        Fizz fb = new Fizz();
+        String result = fb.getFuzz(5);
+        assertEquals("Buzz", result);
+    }
+      @Test
+     public void testNumeroDevuelveFizzBuzz() {
+        Fizz fb = new Fizz();
+        String result = fb.getFizzBuzz(15);
+        assertEquals("FizzBuzz", result);
     }
 }
